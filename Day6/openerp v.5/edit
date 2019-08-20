@@ -1,0 +1,8 @@
+SCP
+scp -r -P2122 xxx@xxx.xxx.co.th:/home/almacom/source /source/
+
+gunzip
+gunzip < DATABASENAME.sql.gz | psql DATABASENAME
+CREATE ROLE
+
+CREATE ROLE mysuperuser2 WITH SUPERUSER CREATEDB CREATEROLE
