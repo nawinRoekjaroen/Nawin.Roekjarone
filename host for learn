@@ -16,3 +16,7 @@ https://www.howtoforge.com/installation-of-openerp-server-5.0-openerp-gtk-client
 
 wizard
 https://doc.odoo.com/5.0/developer/3_10_wizard/
+
+kill
+sudo htop
+
