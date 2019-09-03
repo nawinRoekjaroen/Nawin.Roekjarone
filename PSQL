@@ -1,2 +1,5 @@
 psql
 https://www.postgresql.org/docs/10/app-psql.html
+
+Backup and Restore PostgreSQL Databases on Ubuntu 16.04
+https://www.vultr.com/docs/how-to-backup-and-restore-postgresql-databases-on-ubuntu-16-04
