@@ -1,9 +1,11 @@
 SCP
-scp -r -P2122 xxx@xxx.xxx.co.th:/home/almacom/source /source/
+sudo scp -r almacom@192.168.1.51:/home/almacom/ .
 
 gunzip
 gunzip < DATABASENAME.sql.gz | psql DATABASENAME
-CREATE ROLE
 
-CREATE ROLE mysuperuser2 WITH SUPERUSER CREATEDB CREATEROLE
+
+netforce@netforce-ThinkPad-T440s ~/openerp-v.6.1/almacom/openerp $ psql postgres 
+postgres=# CREATE ROLE openerpV6 WITH SUPERUSER CREATEDB CREATEROLE LOGIN
+postgres-# ;
 
