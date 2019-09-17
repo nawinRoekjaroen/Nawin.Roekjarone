@@ -1,3 +1,5 @@
+keys ssh
+cat ~/.ssh/id_rsa.pub
 rm 
 sudo rm -rf folderName
 SCP
