@@ -1,18 +1,20 @@
 keys ssh
-  -cat ~/.ssh/id_rsa.pub
-rm 
-  -sudo rm -rf folderName
-SCP
-  -sudo scp -r almacom@192.168.1.51:/home/almacom/ .
+  - cat ~/.ssh/id_rsa.pub
+rm folder not empty 
+  - sudo rm -rf folderName
+SCP copy inform over server
+  - sudo scp -r almacom@192.168.1.51:/home/almacom/ .
 
 gunzip
-  -gunzip < DATABASENAME.sql.gz | psql DATABASENAME
+  - gunzip < DATABASENAME.sql.gz | psql DATABASENAME
 
-
+Create Role Psql
 netforce@netforce-ThinkPad-T440s ~/openerp-v.6.1/almacom/openerp $ psql postgres 
-  postgres=# CREATE ROLE openerpV6 WITH SUPERUSER CREATEDB CREATEROLE LOGIN
-  postgres-# ;
+postgres=# CREATE ROLE openerpV6 WITH SUPERUSER CREATEDB CREATEROLE LOGIN
+postgres-# ;
 
 The following would move a file named file3, without changing its name, from the current directory to an existing 
 subdirectory of the current directory named dir1:
   -mv file3 dir1/file3
+cmd linux
+  -https://saixiii.com/unix-linux-command/
