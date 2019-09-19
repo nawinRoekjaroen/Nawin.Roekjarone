@@ -18,3 +18,7 @@ subdirectory of the current directory named dir1:
   -mv file3 dir1/file3
 cmd linux
   -https://saixiii.com/unix-linux-command/
+
+shotdown server
+  - ps aux | grep python
+  - kill -9 pid
