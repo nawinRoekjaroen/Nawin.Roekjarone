@@ -6,3 +6,6 @@ git log
 git remote add ตั้งชื่อ https:
 git remote -v  #เพื่อดู branch ที่สร้าง
 git push ชื่อที่ตั้ง ชื่อ branch  #เพื่อเอาไฟล์ไปไว้บน githup
+
+การใช้งาน git
+https://saixiii.com/what-is-git/
